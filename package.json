@@ -1,0 +1,26 @@
+{
+  "name": "fullstack-ems",
+  "version": "1.0.0",
+  "description": "Full Stack Employee Management System (EMS) built with React, Node.js, Express, MongoDB, Tailwind CSS, and Inngest",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix client",
+    "server": "npm run server --prefix server",
+    "seed": "npm run seed --prefix server",
+    "start": "npm run start --prefix server",
+    "build": "npm run build --prefix client",
+    "install:all": "npm install --prefix server && npm install --prefix client"
+  },
+  "keywords": [
+    "employee-management-system",
+    "ems",
+    "react",
+    "nodejs",
+    "mongodb",
+    "express",
+    "inngest",
+    "tailwindcss"
+  ],
+  "author": "Rishi",
+  "license": "MIT"
+}
